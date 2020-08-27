@@ -1,0 +1,41 @@
+
+body{
+    margin: 20px;
+}
+
+main{
+    font-family: system-ui, Arial, Helvetica, sans-serif;
+    background-color: #F2E8E6;
+    
+}
+.main{
+    margin: 0  80px;
+    padding:0 20px;
+    
+}
+
+#title{
+    text-align: center;
+}
+.border-line{
+    border-bottom: 0.5px solid brown;
+}
+
+section{
+    padding:10px 0 ;
+}
+
+img{
+    border: 3px solid #A19A9A;
+}
+
+section{
+    margin: 20px 0;;
+}
+
+footer{
+    text-align: center;
+}
+
+
+
