@@ -59,8 +59,13 @@ footer{
 }
 
 .image-size{
-    height: 400px;
-    width:600px;
+    height: 50%;
+    width:80%;
+}
+
+.image-size-small{
+    height: 300px;
+    width:500px;
 }
 
 ul {
