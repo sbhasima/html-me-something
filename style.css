@@ -6,6 +6,7 @@ body{
 main{
     font-family: system-ui, Arial, Helvetica, sans-serif;
     background-color: #F2E8E6;
+    font-size:18px;
     
 }
 .main{
@@ -38,4 +39,52 @@ footer{
 }
 
 
+.caption {
+    margin-top: -3px;
+    margin-left: 15px;
+    font-size:14px;
+}
 
+#float-right{
+    float: right;
+}
+
+.float-left{
+    float:left;
+    margin-right: 20px;
+}
+
+.clear{
+    clear:both;
+}
+
+.image-size{
+    height: 400px;
+    width:600px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+  display: inline;
+  font-size: 20px;  
+  margin-right: 30px;
+  background:#EAF2F2;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    padding:15px;
+}
+
+.topnav{
+    margin-top:5px;
+    padding: 5px;
+    background:#BEC5C5;
+}

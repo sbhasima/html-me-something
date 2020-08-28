@@ -12,9 +12,17 @@
                 <h1>Get The COVID-19 UPDATES</h1>
             </header>
             <div class="border-line"></div>
+            <nav class="main topnav" >
+                <ul>
+                    <li><a href="index.html">COVID Home</a></li>
+                    <li><a href="#treatement">Possible Treatement </a></li>
+                    <li><a href="#vaccine-progress">Vaccine Progress</a></li>
+                    <li><a href="#convalescent-plasma">Convalescent Plasma</a></li>
+                  </ul>
+            </nav>
             <main  class="main">
                 <section>
-                    <h1>
+                    <h1 id="treatement">
                         The possible treatement of COVID 19
                     </h1>
                     <p>The COVID-19, aka corona virus has been and has affected billions of people around the world. 
@@ -25,14 +33,14 @@
                             number of virus infection.
                     </p>
                     <img src = "images/covid-data.png" alt="covid-data" height = "400" id ="covid-data-picture">
-                    <caption class="body-pic-caption">source:https://graphics.reuters.com/CHINA-HEALTH-MAP/0100B59S39E/index.html</caption>
+                    <p class="caption">Source: <a href="https://graphics.reuters.com/CHINA-HEALTH-MAP/0100B59S39E/index.html">Reuters- HealthMap</a></p>
                     <p>    
                         Nobody can say when it will stop. Some doctors has predicted that we should adapt the virus in our life and live with 
                         it until its medicine is developed. 
                     </p>
                 </section>
                 <section>
-                    <h3>Progress on Corona Virus Vaccine</h3>
+                    <h3 id="vaccine-progress">Progress on Corona Virus Vaccine</h3>
                     <article>
                         Many researchers in different countries are working hard to develop a vaccine to cure corona virus. Some countries 
                         has claimed to have developed the vaccine and is under trial. One of the research company in China has proceeded the 
@@ -48,14 +56,16 @@
                     </p>
                 </section>
                 <section>
-                    <h3>What is Convalescent Plasma</h3>
+                    <h3 id="convalescent-plasma">What is Convalescent Plasma</h3>
                     <article>
                         <p>Plasma is the liquid portion of blood that remains after removing red blood cells, white blood cells
                         and platelets and other cellular components from the blood. Our blood contains about 55% plasma.</p>
-                        <img src="images/blood-plasma.jpg" alt = "blood-plasma" height = "400">
-                        <caption>
+                        <div id="float-right">
+                        <img src="images/blood-plasma.jpg" alt = "blood-plasma"  class = "image-size" >
+                        <p class="caption" >
                             <a href='https://www.freepik.com/vectors/education'>Education vector created by brgfx - www.freepik.com</a>
-                        </caption>
+                        </p>
+                        </div> 
                         <p>When people recover from COVID-19, their blood contains antibodies that their bodies produced to fight
                             the coronavirus and help them get well. Antibodies are found in plasma, a component of blood. The therapy 
                             used to treate any virus or disease with this covalescent plasma has been in practice from more than 100
@@ -64,7 +74,7 @@
 
                     </article>
                 </section>
-                <section>
+                <section class = "clear">
                     <h3>Is this treatement Approved?</h3>
                     <article>
                         <p>A recent analysis of 35,000 hospitalized patients who received convalescent plasma to treat severe COVID-19 
@@ -73,7 +83,7 @@
                             COVID-19 who received convalescent plasma within three days of diagnosis were less likely to die than 
                             patients who received convalescent plasma later in their illness.
                         </p>
-                        <img src ="images/patients.jpg" alt="patients" height ="400">
+                        <img src ="images/patients.jpg" alt="patients" height ="300" class = "float-left">
                         <p>In many other countries also, many COVID-19 patients has been successfully treated by this therapy. So scientients
                             are expecting this therapy could be the best way of treating COVID-19 patients which in many cases has been successful.
                         </p>      
